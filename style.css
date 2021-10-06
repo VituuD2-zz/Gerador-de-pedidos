@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(118, 89, 247);
+    font: normal 14pt Arial;
+    color: rgb(84, 58, 201);
+}
+
+h1{
+    font: bold 36pt Arial;
+    text-align: center;
+    color:white;
+}
+ 
+div#orders{
+    background-color: white;
+    border-radius: 10px;
+    width: 500px;
+    margin:auto;
+    padding:8px
+}
+
+div#orders select{
+    color:rgb(118, 89, 247);
+    width: 120px;
+    font: normal 8pt Verdana;    
+}
+
+div#add input{
+    color:rgb(118, 89, 247);
+    font: bold 25pt Arial;
+    margin-top: 50px;
+    height: 50px;
+    border-radius: 8px;
+    margin-left: 535px;
+    width: 510px;
+}
+
