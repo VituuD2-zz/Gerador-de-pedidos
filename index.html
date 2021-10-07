@@ -11,15 +11,18 @@
 <body>
     <h1>Gerador de Pedidos</h1>
     <div id="orders">
+        <p class="inname">Nome:
+            <input type="text" name="name" id="name">
+        </p>
         <p>Escolha o tipo de feijao:
-            <select class="sel1">
+            <select class="sel1" id="sel1">
                 <option value="f0"></option>
                 <option value="f1">TROPEIRO</option>
                 <option value="f2">FEIJAO DE CALDO</option>
             </select>
         </p>
         <p>Escolha a carne:
-            <select class="sel2">
+            <select class="sel2" id="sel2">
                 <option value="c0"></option>
                 <option value="c1">FILÉ FRANGO EMPANADO</option>
                 <option value="c2">COXA E SOBRECOXA DE FRANGO</option>
@@ -40,7 +43,8 @@
         </p>
     </div>
     <div id="add">
-        <input type="button" value="ADICIONAR">
+        <input type="button" value="" onclick="send()">
     </div>
+    <script src="main.js"></script>
 </body>
 </html>

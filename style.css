@@ -5,18 +5,20 @@ body{
 }
 
 h1{
-    font: bold 36pt Arial;
+    font-size: 38pt;
+    font-family: 'Inlanders', 'Times';
     text-align: center;
     color:white;
 }
  
 div#orders{
     background-color: white;
-    border-radius: 10px;
+    border: none;
     width: 500px;
     margin:auto;
-    padding:8px
+    padding:8px;
 }
+
 
 div#orders select{
     color:rgb(118, 89, 247);
@@ -24,13 +26,24 @@ div#orders select{
     font: normal 8pt Verdana;    
 }
 
-div#add input{
-    color:rgb(118, 89, 247);
-    font: bold 25pt Arial;
-    margin-top: 50px;
-    height: 50px;
-    border-radius: 8px;
-    margin-left: 535px;
-    width: 510px;
+@font-face {
+    font-family:'Inlanders';
+    src: url('Inlanders.otf') format('opentype');
 }
 
+div#add input{
+    margin-top: 50px;
+    height: 50px;
+    border-color: rgb(118, 89, 247);
+    margin-left: 535px;
+    width: 510px;
+    background-image: url(enter.png);
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position: center;
+    cursor: pointer;
+}
+
+.inname{
+    cursor: text;
+}
