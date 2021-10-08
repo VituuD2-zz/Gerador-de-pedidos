@@ -1,3 +1,8 @@
+@font-face {
+    font-family:'Inlanders';
+    src: url('Inlanders.otf') format('opentype');
+}
+
 body{
     background-color: rgb(118, 89, 247);
     font: normal 14pt Arial;
@@ -26,10 +31,6 @@ div#orders select{
     font: normal 8pt Verdana;    
 }
 
-@font-face {
-    font-family:'Inlanders';
-    src: url('Inlanders.otf') format('opentype');
-}
 
 div#add input{
     margin-top: 50px;
@@ -46,4 +47,12 @@ div#add input{
 
 .inname{
     cursor: text;
+}
+
+.div1{
+    text-align: center;
+    color: white;
+    background-color: gray;
+    width: 230px;
+    height: 230px;
 }
