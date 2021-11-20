@@ -11,12 +11,14 @@ function send() {
     if(name1.value.length == 0 ){
         alert('[ERROR] Insira um valor valido!')
     }else {
-        let div = document.createElement('div')
-        div.id = 'div1'
-        div.className = 'div1'
-        document.body.appendChild(div)
-        div.innerHTML = sel1.value, '/n'
-        div.innerHTML = name1.value
+        let create_div = document.createElement('div')
+        let array_orders = [name1.value, sel1.value, sel2.value]
+        let make_string = array_orders.toString()
+        let brk = make_string.split(',')
+        let res = brk.join('<br>')
+        create_div.innerHTML = res
+        create_div.className = 'div_orders'
 
+        document.body.appendChild(create_div)
     }
 }
