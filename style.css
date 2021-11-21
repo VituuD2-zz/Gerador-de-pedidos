@@ -50,9 +50,20 @@ div#add input{
 }
 
 .div_orders{
+    font: bold 15pt Arial;
     text-align: center;
     color: white;
     background-color: gray;
     width: 230px;
     height: 230px;
+}
+
+.obs_class::-webkit-input-placeholder{
+    font:normal 9pt Verdana;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.obs_class{
+    width: 320px;
+    height: 20px;
 }
